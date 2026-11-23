@@ -1,0 +1,17 @@
+export const HookStream = {
+    noteBase: 100000,
+    judgement: 1,
+    judgementTiming: 2,
+    judgementDiffMs: 3,
+    judgementLane: 4,
+    judgementWidth: 5,
+    judgementOp: 6,
+    judgementDir: 7,
+    comboReset: 10,
+    emptyTap: 20,
+    holdBegin: 30,
+    holdEnd: 31,
+    fever: 40,
+    skill: 41,
+    lineState: 200000,
+} as const
